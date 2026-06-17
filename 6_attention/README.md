@@ -9,7 +9,7 @@ values — capturing long-range relationships in language, vision and beyond.
 
 | Script | Formula | What it shows |
 |--------|---------|---------------|
-| [`scaled_dot_product_attention.py`](./scaled_dot_product_attention.py) | `softmax(QKᵀ/√d_k)V` | Attention from scratch + an interpretable example |
+| [`scaled_dot_product_attention.py`](./scaled_dot_product_attention.py) | $\mathrm{softmax}\!\left(\dfrac{Q K^{\top}}{\sqrt{d_k}}\right) V$ | Attention from scratch + an interpretable example |
 
 Run it from this folder:
 

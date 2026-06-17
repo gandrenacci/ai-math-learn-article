@@ -8,8 +8,8 @@ cross-entropy is the specific loss behind classification and language modeling.
 
 | Script | Formula | What it shows |
 |--------|---------|---------------|
-| [`master_equation.py`](./master_equation.py) | `θ* = argmin (1/N) Σ L(f_θ(x),y)` | Empirical risk; lower loss ↔ better params |
-| [`cross_entropy.py`](./cross_entropy.py) | `H(y,p) = -Σ y_i log p_i` | The classification / next-token loss |
+| [`master_equation.py`](./master_equation.py) | $\theta^{*} = \arg\min \dfrac{1}{N} \sum L\big(f_\theta(x), y\big)$ | Empirical risk; lower loss ↔ better params |
+| [`cross_entropy.py`](./cross_entropy.py) | $H(y, p) = -\sum_i y_i \log p_i$ | The classification / next-token loss |
 
 Run any script from this folder, e.g.:
 
